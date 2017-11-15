@@ -171,7 +171,7 @@ public class BlankFragment extends Fragment implements GoogleApiClient.Connectio
                     Marker marker = new Marker(new LatLong(currentLatitude,currentLongitude),bitmap,0,-bitmap.getHeight()/2);
                     mapView.getLayerManager().getLayers().add(marker);
 
-                    
+
                     ExecuteRoot executeRoot = new ExecuteRoot();
                     LatLong source = new LatLong(currentLatitude,currentLongitude);
                     LatLong destination =new LatLong(36.2850684,6.6575333);
